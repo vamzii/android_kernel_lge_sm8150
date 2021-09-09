@@ -372,24 +372,5 @@ struct msm_vidc_vui_display_info_payload {
 
 /*default when layer ID isn't specified*/
 #define MSM_VIDC_ALL_LAYER_ID 0xFF
-	MSM_VIDC_BUFFER_FD,
-	MSM_VIDC_DATA_OFFSET,
-	MSM_VIDC_COMP_RATIO,
-	MSM_VIDC_INPUT_TAG_1,
-	MSM_VIDC_INPUT_TAG_2,
-};
 
-enum msm_vidc_cb_event_types {
-	MSM_VIDC_HEIGHT,
-	MSM_VIDC_WIDTH,
-	MSM_VIDC_BIT_DEPTH,
-	MSM_VIDC_PIC_STRUCT,
-	MSM_VIDC_COLOR_SPACE,
-	MSM_VIDC_CROP_TOP,
-	MSM_VIDC_CROP_LEFT,
-	MSM_VIDC_CROP_HEIGHT,
-	MSM_VIDC_CROP_WIDTH,
-	MSM_VIDC_PROFILE,
-	MSM_VIDC_LEVEL,
-};
 #endif
